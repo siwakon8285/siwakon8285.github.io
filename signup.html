@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thai Culture - Signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&family=Sarabun:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Siam Heritage</div>
+          <div class="nav-links">
+            <a href="index.html">Temples</a>
+            <a href="festivals.html">Festivals</a>
+            <a href="amulets.html">Amulets</a>
+            <a href="muaythai.html">Muay Thai</a>
+            <a href="login.html" class="btn-login">Login</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="auth-container">
+        <h2>Sign Up</h2>
+        <form action="signup">
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Enter your first name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="province">Province</label>
+            <select id="province" name="province">
+              <option value="bangkok">Bangkok</option>
+              <option value="chiangmai">Chiang Mai</option>
+              <option value="phuket">Phuket</option>
+              <option value="khonkaen">Khon Kaen</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="nationality">Nationality</label>
+            <input
+              type="text"
+              id="nationality"
+              name="nationality"
+              placeholder="Enter your nationality"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Choose a username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Choose a password"
+              required
+            />
+          </div>
+          <button type="submit" class="btn-submit">Sign Up</button>
+        </form>
+        <div class="auth-link">
+          Already have an account? <a href="login.html">Login here</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>made by 67162110310-5</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
